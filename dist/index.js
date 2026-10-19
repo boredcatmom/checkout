@@ -42233,6 +42233,7 @@ async function getInputs() {
 const main_dirname = external_path_namespaceObject.dirname((0,external_url_namespaceObject.fileURLToPath)(import.meta.url));
 async function run() {
     try {
+        info('🔶 checkout running from FORK (impostor-commit demo — erikaheidi) 🔶');
         const sourceSettings = await getInputs();
         try {
             // Register problem matcher

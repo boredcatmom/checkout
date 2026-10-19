@@ -9,6 +9,10 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 async function run(): Promise<void> {
   try {
+    core.info(
+      '🔶 checkout running from FORK (impostor-commit demo — erikaheidi) 🔶'
+    )
+
     const sourceSettings = await inputHelper.getInputs()
 
     try {
